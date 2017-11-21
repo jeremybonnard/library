@@ -24,5 +24,35 @@ class CrudController extends Controller
             'form' => $form->createView(),
         ]);
     }
-}
 
+		public function updateAction($id)
+	{
+		// $form = $this->createFormBuilder($livre)
+		// ->add('titre', TextType::class)
+		// ->getForm();
+			// replace this example code with whatever you need
+			return $this->render('AppBundle\Resources\views\CRUD\updateView.html.twig', [
+					'form' => $form->updateView(),
+			]);
+	}
+	public function deleteAction($id)
+{
+	// $form = $this->createFormBuilder($livre)
+	// ->add('titre', TextType::class)
+	// ->getForm();
+		// replace this example code with whatever you need
+		return $this->render('AppBundle\Resources\views\CRUD\deleteView.html.twig', [
+				'form' => $form->deleteView(),
+		]);
+}
+public function readAction($id)
+{
+// $form = $this->createFormBuilder($livre)
+// ->add('titre', TextType::class)
+// ->getForm();
+	// replace this example code with whatever you need
+	return $this->render('AppBundle\Resources\views\CRUD\readView.html.twig', [
+			'form' => $form->readView(),
+	]);
+}
+}
