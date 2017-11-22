@@ -32,7 +32,7 @@ class Book
     /**
      * @var boolean
      *
-     * @ORM\Column(name="etat", type="boolean", options={"default":true})
+     * @ORM\Column(name="visible", type="boolean")
      */
     private $etat;
 
@@ -69,28 +69,5 @@ class Book
     {
         return $this->titre;
     }
-
-    /**
-     * Set etat
-     *
-     * @param boolean $etat
-     *
-     * @return Book
-     */
-    public function setEtat($etat)
-    {
-        $this->etat = $etat;
-
-        return $this;
-    }
-
-    /**
-     * Get etat
-     *
-     * @return boolean
-     */
-    public function getEtat()
-    {
-        return $this->etat;
-    }
 }
+

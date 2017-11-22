@@ -1,15 +1,14 @@
 {% block body -%}
-    <div class="page-header">
-        <h1>Lecture</h1>
-    </div>
-    <form method="post" action="">
-	<fieldset>
-	<legend>Consulter livre</legend>
-	<p>
-	<label for="pseudo">Nom du livre :</label><input name="nom_livre" type="text" id="nom_livre" /><br />
-	</p>
-	</fieldset>
-	<p><input type="submit" value="read_livre" /></p></form>
 
+		{% for livre in livres %}
+			<p>
+				Titre du livre : {{ livre.titre }}
+				{% if livre.etat %}
+					Ce livre est disponible
+				{% else %}
+					Ce livre n'est plus disponible
+				{% endif %}
+			</p>
+		{% endfor %}
 
 {% endblock %}

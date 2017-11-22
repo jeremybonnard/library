@@ -1,15 +1,7 @@
 {% block body -%}
-    <div class="page-header">
-        <h1>Création</h1>
-    </div>
-    <form method="post" action="">
-	<fieldset>
-	<legend>Nouveau livre</legend>
-	<p>
-	<label for="pseudo">Nom du livre :</label><input name="nom_livre" type="text" id="nom_livre" /><br />
-	</p>
-	</fieldset>
-	<p><input type="submit" value="nouveau_livre" /></p></form>
-
-
+	<body>
+	{{ form_start(form) }}
+	{{ form_widget(form) }}
+	{{ form_end(form) }}
+	</body>
 {% endblock %}
