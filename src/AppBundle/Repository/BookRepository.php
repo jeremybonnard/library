@@ -17,4 +17,12 @@ class BookRepository extends \Doctrine\ORM\EntityRepository
         )
             ->getResult();
     }
+
+    public function findByTitre($titre)
+    {
+        return $this->getEntityManager()->createQuery(
+            'SELECT * FROM AppBundle:Book b WHERE titre like "%'.$titre.'%" ORDER BY b.titre ASC'
+        )
+            ->getResult();
+    }
 }
