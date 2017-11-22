@@ -22,4 +22,9 @@ class User extends \FOS\UserBundle\Model\User
         parent::__construct();
         // your own logic
     }
+
+    public function getClass()
+    {
+        return 'AppBundle\Entity\User';
+    }
 }
