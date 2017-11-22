@@ -8,7 +8,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use AppBundle\Entity\Book;
 use AppBundle\Entity\User;
-use Symfony\Component\Form\Extension\Core\Type\TextType; 
+use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 
 class CrudController extends Controller
@@ -21,7 +21,7 @@ class CrudController extends Controller
         dump($request);
     	$livre = new Book();
     	$form = $this->createFormBuilder($livre)
-    	->add('titre', TextType::class) 
+    	->add('titre', TextType::class)
     	->add('save', SubmitType::class, array('label' => 'Creer Livre'))
   		->getForm();
 
@@ -48,7 +48,7 @@ class CrudController extends Controller
 		$em = $this->getDoctrine()->getManager();
 		$livre = $em->getRepository(book::class)->find($id);
     	$form = $this->createFormBuilder($livre)
-    	->add('titre', TextType::class) 
+    	->add('titre', TextType::class)
     	->add('save', SubmitType::class, array('label' => 'Update le livre'))
   		->getForm();
   		$form->handleRequest($request);
@@ -59,7 +59,7 @@ class CrudController extends Controller
 	         $em->persist($livre);
 	         $em->flush();
 	        return $this->redirectToRoute('read');
-    	}	
+    	}
         // replace this example code with whatever you need
         return $this->render('AppBundle:CRUD:updateView.html.twig', [
             'form' => $form->createView(),
@@ -92,5 +92,20 @@ class CrudController extends Controller
 	return $this->render('AppBundle:CRUD:readView.html.twig', [
 	    'livres' => $livres
 	]);
+	}
+
+	public function getLivreById($id)
+	{
+		// En guise de test on passe à cette fonction l'id d'un bouquin qu'on a déjà et si la fonction renvoi rien, c'est qu'elle est bugguée
+	    $em = $this->getDoctrine()->getManager();
+      $livre = $em->getRepository(book::class)->find($id);
+			return $livre;
+	}
+	public function getLivreByTitre($titre)
+	{
+		// En guise de test on passe à cette fonction le titre d'un bouquin qu'on a déjà et si la fonction renvoi rien, c'est qu'elle est bugguée
+	    $em = $this->getDoctrine()->getManager();
+      $livre = $em->getRepository(book::class)->findByTitre($titre);
+			return $livre;
 	}
 }
