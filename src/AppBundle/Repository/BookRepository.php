@@ -10,4 +10,11 @@ namespace AppBundle\Repository;
  */
 class BookRepository extends \Doctrine\ORM\EntityRepository
 {
+    public function getid5()
+    {
+        return $this->getEntityManager()->createQuery(
+            'SELECT p FROM AppBundle:Product p ORDER BY p.name ASC'
+        )
+            ->getResult();
+    }
 }

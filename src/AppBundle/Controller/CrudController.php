@@ -17,6 +17,7 @@ class CrudController extends Controller
      */
 	    public function createAction(Request $request)
     {
+        dump($request);
     	$livre = new Book();
     	$form = $this->createFormBuilder($livre)
     	->add('titre', TextType::class) 
