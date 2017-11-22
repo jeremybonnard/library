@@ -1,15 +1,8 @@
 {% block body -%}
-    <div class="page-header">
-        <h1>Modification</h1>
-    </div>
-    <form method="post" action="">
-	<fieldset>
-	<legend>Modifier un livre</legend>
-	<p>
-	<label for="pseudo">Nom du livre :</label><input name="nom_livre" type="text" id="nom_livre" /><br />
-	</p>
-	</fieldset>
-	<p><input type="submit" value="update_livre" /></p></form>
-
+	<body>
+    {{ form_start(form) }}
+    {{ form_widget(form) }}
+    {{ form_end(form) }}
+	</body>
 
 {% endblock %}

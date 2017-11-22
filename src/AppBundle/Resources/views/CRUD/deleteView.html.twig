@@ -1,15 +1,12 @@
 {% block body -%}
-    <div class="page-header">
-        <h1>Suppression</h1>
-    </div>
-    <form method="post" action="">
-	<fieldset>
-	<legend>Supprimer un livre</legend>
-	<p>
-	<label for="pseudo">Nom du livre :</label><input name="nom_livre" type="text" id="nom_livre" /><br />
-	</p>
-	</fieldset>
-	<p><input type="submit" value="delete_livre" /></p></form>
+	<body>
+	<div class="page-header">
+		<h1>Suppression effectuée</h1>
+		Le livre n° {{ livre.id }} avec le titre {{ livre.titre }} a été supprimé.
+	</div>
+
+	</body>
+
 
 
 {% endblock %}

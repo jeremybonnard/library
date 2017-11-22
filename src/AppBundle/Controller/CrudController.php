@@ -26,18 +26,13 @@ class CrudController extends Controller
   		  $form->handleRequest($request);
 
     	if ($form->isSubmitted() && $form->isValid()) {
-        	// $form->getData() holds the submitted values
-	        // but, the original `$task` variable has also been updated
-	        $livre = $form->getData();
-
-	        // ... perform some action, such as saving the task to the database
-	        // for example, if Task is a Doctrine entity, save it!
-	         $em = $this->getDoctrine()->getManager();
-	         $em->persist($livre);
-	         $em->flush();
+    	    $livre = $form->getData();
+	        $em = $this->getDoctrine()->getManager();
+	        $em->persist($livre);
+	        $em->flush();
 	        return $this->redirectToRoute('read');
-    	}	
-        // replace this example code with whatever you need
+    	}
+
         return $this->render('AppBundle:CRUD:createView.html.twig', [
             'form' => $form->createView(),
         ]);
@@ -54,16 +49,10 @@ class CrudController extends Controller
     	->add('titre', TextType::class) 
     	->add('save', SubmitType::class, array('label' => 'Update le livre'))
   		->getForm();
-
-  		  $form->handleRequest($request);
+  		$form->handleRequest($request);
 
     	if ($form->isSubmitted() && $form->isValid()) {
-        	// $form->getData() holds the submitted values
-	        // but, the original `$task` variable has also been updated
 	        $livre = $form->getData();
-
-	        // ... perform some action, such as saving the task to the database
-	        // for example, if Task is a Doctrine entity, save it!
 	         $em = $this->getDoctrine()->getManager();
 	         $em->persist($livre);
 	         $em->flush();
@@ -82,9 +71,12 @@ class CrudController extends Controller
 	public function deleteAction($id)
 	{
 	    $em = $this->getDoctrine()->getManager();
-        $livre = $em->getRepository()->find($id);
-
+        $livre = $em->getRepository(book::class)->find($id);
+        $livre->setEtat(0);
+        $em->persist($livre);
+        $em->flush();
 		return $this->render('AppBundle:CRUD:deleteView.html.twig', [
+		    'livre' => $livre
 		]);
 	}
 

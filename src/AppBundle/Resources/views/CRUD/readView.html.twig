@@ -1,14 +1,17 @@
 {% block body -%}
-
+	<body>
 		{% for livre in livres %}
 			<p>
-				Titre du livre : {{ livre.titre }}
+				Livre n° {{ livre.id }} <BR/>
+				Titre : {{ livre.titre }} <BR/>
 				{% if livre.etat %}
 					Ce livre est disponible
 				{% else %}
 					Ce livre n'est plus disponible
 				{% endif %}
+				<a href="{{ path('update', {'id':livre.id}) }}">Update</a>
+				<a href="{{ path('delete', {'id':livre.id}) }}">Supprimer</a>
 			</p>
 		{% endfor %}
-
+	</body>
 {% endblock %}
