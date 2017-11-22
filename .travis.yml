@@ -15,15 +15,6 @@ addons:
 php:
   - 5.6
 
-
-matrix:
-  include:
-    - dist: precise
-      php: 5.3
-  fast_finish: true
-  allow_failures:
-    - php: nightly
-
 before_install:
     # determine INI file
     - if [[ $TRAVIS_PHP_VERSION = hhvm* ]]; then export INI=/etc/hhvm/php.ini; else export INI=~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini; fi
@@ -33,12 +24,10 @@ before_install:
     - echo memory_limit = -1 >> $INI
 
 install:
-    # flags to pass to install
-    - flags="--ansi --prefer-dist --no-interaction --optimize-autoloader --no-suggest --no-progress"
     # install dependencies using system provided composer binary
-    - composer install $flags
+    - composer install --ansi --prefer-dist --no-interaction --optimize-autoloader --no-suggest --no-progress
     # install dependencies using composer from source
-    - bin/composer install $flags
+    - bin/composer install --ansi --prefer-dist --no-interaction --optimize-autoloader --no-suggest --no-progress
 
 script:
     # run test suite directories in parallel using GNU parallel
