@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="408da565-a5d5-40d1-9589-0ee894537b94" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpdox.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update.sh" afterPath="$PROJECT_DIR$/update.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,6 +42,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="testFunction.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/AppBundle/Util/testFunction.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AppBundle.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,24 +66,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-              <folding>
-                <marker date="1511447962231" expanded="true" signature="548:783" ph="script: &lt;2 items&gt;" />
-                <marker date="1511447962231" expanded="true" signature="791:802" ph="./update.sh" />
-              </folding>
+            <state relative-caret-position="510">
+              <caret line="34" column="58" lean-forward="true" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="phpdox.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phpdox.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/update.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="112" lean-forward="false" selection-start-line="0" selection-start-column="112" selection-end-line="0" selection-end-column="112" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,18 +116,6 @@
             <state relative-caret-position="1110">
               <caret line="74" column="39" lean-forward="false" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <marker date="1511445364754" expanded="true" signature="58:376" ph="parameters: &lt;11 keys&gt;" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -155,8 +164,9 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Book.php" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/update.sh" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/phpdox.xml" />
       </list>
     </option>
   </component>
@@ -167,7 +177,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="960" />
     <option name="height" value="1056" />
   </component>
@@ -324,15 +334,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25356000" />
+    <option name="totallyTimeSpent" value="28023000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1056" extended-state="4" />
+    <frame x="-3" y="0" width="1926" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36477986" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33053514" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -370,24 +380,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="1039" column="20" lean-forward="false" selection-start-line="1039" selection-start-column="20" selection-end-line="1039" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="24" />
           <folding>
-            <marker date="1511445153438" expanded="true" signature="510:1186" ph="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
-            <marker date="1511445153438" expanded="true" signature="1207:1298" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
-            <marker date="1511445153438" expanded="true" signature="1315:2046" ph="{...}" />
-            <marker date="1511445153438" expanded="true" signature="1344:1897" ph="[...]" />
-            <marker date="1511445153438" expanded="true" signature="1927:1969" ph="[...]" />
-            <marker date="1511445153438" expanded="true" signature="2062:2099" ph="{&quot;sort-packages&quot;: true...}" />
+            <marker date="1511451270949" expanded="true" signature="510:1323" ph="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
+            <marker date="1511451270949" expanded="true" signature="1344:1435" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
+            <marker date="1511451270949" expanded="true" signature="1452:2183" ph="{...}" />
+            <marker date="1511451270949" expanded="true" signature="1481:2034" ph="[...]" />
+            <marker date="1511451270949" expanded="true" signature="2064:2106" ph="[...]" />
+            <marker date="1511451270949" expanded="true" signature="2199:2236" ph="{&quot;sort-packages&quot;: true...}" />
           </folding>
         </state>
       </provider>
@@ -396,6 +399,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -403,6 +407,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -428,7 +433,7 @@
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <marker date="1511445364754" expanded="true" signature="58:376" ph="parameters: &lt;11 keys&gt;" />
+            <marker date="1511450818402" expanded="true" signature="58:376" ph="parameters: &lt;11 keys&gt;" />
           </folding>
         </state>
       </provider>
@@ -477,6 +482,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="145" column="6" lean-forward="false" selection-start-line="145" selection-start-column="6" selection-end-line="145" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#172#0#PHP" expanded="true" />
+            <element signature="e#207#266#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -511,10 +520,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <marker date="1511447962231" expanded="true" signature="548:783" ph="script: &lt;2 items&gt;" />
-            <marker date="1511447962231" expanded="true" signature="791:802" ph="./update.sh" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -522,6 +528,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="e#6#172#0#PHP" expanded="true" />
+            <element signature="e#207#266#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -529,6 +539,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -536,6 +547,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -569,7 +581,7 @@
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <marker date="1511445364754" expanded="true" signature="58:376" ph="parameters: &lt;11 keys&gt;" />
+            <marker date="1511450818402" expanded="true" signature="58:376" ph="parameters: &lt;11 keys&gt;" />
           </folding>
         </state>
       </provider>
@@ -587,12 +599,12 @@
         <state relative-caret-position="585">
           <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="24" />
           <folding>
-            <marker date="1511445153438" expanded="true" signature="510:1186" ph="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
-            <marker date="1511445153438" expanded="true" signature="1207:1298" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
-            <marker date="1511445153438" expanded="true" signature="1315:2046" ph="{...}" />
-            <marker date="1511445153438" expanded="true" signature="1344:1897" ph="[...]" />
-            <marker date="1511445153438" expanded="true" signature="1927:1969" ph="[...]" />
-            <marker date="1511445153438" expanded="true" signature="2062:2099" ph="{&quot;sort-packages&quot;: true...}" />
+            <marker date="1511451270949" expanded="true" signature="510:1323" ph="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
+            <marker date="1511451270949" expanded="true" signature="1344:1435" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
+            <marker date="1511451270949" expanded="true" signature="1452:2183" ph="{...}" />
+            <marker date="1511451270949" expanded="true" signature="1481:2034" ph="[...]" />
+            <marker date="1511451270949" expanded="true" signature="2064:2106" ph="[...]" />
+            <marker date="1511451270949" expanded="true" signature="2199:2236" ph="{&quot;sort-packages&quot;: true...}" />
           </folding>
         </state>
       </provider>
@@ -601,10 +613,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <marker date="1511447962231" expanded="true" signature="548:783" ph="script: &lt;2 items&gt;" />
-            <marker date="1511447962231" expanded="true" signature="791:802" ph="./update.sh" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -676,12 +685,12 @@
         <state relative-caret-position="585">
           <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="24" />
           <folding>
-            <marker date="1511445153438" expanded="true" signature="510:1186" ph="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
-            <marker date="1511445153438" expanded="true" signature="1207:1298" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
-            <marker date="1511445153438" expanded="true" signature="1315:2046" ph="{...}" />
-            <marker date="1511445153438" expanded="true" signature="1344:1897" ph="[...]" />
-            <marker date="1511445153438" expanded="true" signature="1927:1969" ph="[...]" />
-            <marker date="1511445153438" expanded="true" signature="2062:2099" ph="{&quot;sort-packages&quot;: true...}" />
+            <marker date="1511451270949" expanded="true" signature="510:1323" ph="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
+            <marker date="1511451270949" expanded="true" signature="1344:1435" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
+            <marker date="1511451270949" expanded="true" signature="1452:2183" ph="{...}" />
+            <marker date="1511451270949" expanded="true" signature="1481:2034" ph="[...]" />
+            <marker date="1511451270949" expanded="true" signature="2064:2106" ph="[...]" />
+            <marker date="1511451270949" expanded="true" signature="2199:2236" ph="{&quot;sort-packages&quot;: true...}" />
           </folding>
         </state>
       </provider>
@@ -690,13 +699,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/AppBundle/Util/testFunction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -722,7 +725,7 @@
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <marker date="1511445364754" expanded="true" signature="58:376" ph="parameters: &lt;11 keys&gt;" />
+            <marker date="1511450818402" expanded="true" signature="58:376" ph="parameters: &lt;11 keys&gt;" />
           </folding>
         </state>
       </provider>
@@ -781,6 +784,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="145" column="6" lean-forward="false" selection-start-line="145" selection-start-column="6" selection-end-line="145" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#172#0#PHP" expanded="true" />
+            <element signature="e#207#266#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -803,20 +810,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/update.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="112" lean-forward="false" selection-start-line="0" selection-start-column="112" selection-end-line="0" selection-end-column="112" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/AppBundle/Util/testFunction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpdox.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-          <folding>
-            <marker date="1511447962231" expanded="true" signature="548:783" ph="script: &lt;2 items&gt;" />
-            <marker date="1511447962231" expanded="true" signature="791:802" ph="./update.sh" />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="34" column="58" lean-forward="true" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
