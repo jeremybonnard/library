@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * Book
+ *
+ * @category Test
+ * @package  Test
+ * @author   Test <test@test.com>
+ * @license  test https://www.test.com
+ * @link     Test
+ */
 namespace AppBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
@@ -7,34 +16,45 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Book
  *
+ * @category                                                          Test
+ * @package                                                           Test
+ * @author                                                            Test <test@test.com>
+ * @license                                                           test https://www.test.com
+ * @link                                                              Test
  * @ORM\Table(name="book")
  * @ORM\Entity(repositoryClass="AppBundle\Repository\BookRepository")
  */
 class Book
 {
     /**
+     * L'id
+     *
      * @var int
      *
-     * @ORM\Column(name="id", type="integer")
+     * @ORM\Column(name="id",               type="integer")
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
-    private $id;
+    private $_id;
 
     /**
+     * Le titre
+     *
      * @var string
      *
      * @ORM\Column(name="titre", type="string", length=255)
      */
-    private $titre;
+    private $_titre;
 
 
     /**
+     * L'état
+     * 
      * @var boolean
      *
      * @ORM\Column(name="etat", type="boolean", options={"default":true})
      */
-    private $etat;
+    private $_etat;
 
     /**
      * Get id
@@ -49,7 +69,7 @@ class Book
     /**
      * Set titre
      *
-     * @param string $titre
+     * @param string $titre titre
      *
      * @return Book
      */
@@ -73,7 +93,7 @@ class Book
     /**
      * Set etat
      *
-     * @param boolean $etat
+     * @param boolean $etat l'état
      *
      * @return Book
      */

@@ -1,5 +1,13 @@
 <?php
-
+/**
+ * MyClass Class Doc Comment
+ *
+ * @category Test
+ * @package  Test
+ * @author   Test <test@test.com>
+ * @license  test https://www.test.com
+ * @link     Test
+ */
 namespace AppBundle\Controller;
 
 
@@ -10,10 +18,25 @@ use AppBundle\Entity\Book;
 use AppBundle\Entity\User;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
+use Symfony\Component\HttpFoundation\Response;
 
+/**
+ * MyClass Class Doc Comment
+ *
+ * @category Test
+ * @package  Test
+ * @author   Test <test@test.com>
+ * @license  test https://www.test.com
+ * @link     Test
+ */
 class CrudController extends Controller
 {
     /**
+     * Create route
+     *
+     * @param Request $request la requete
+     *
+     * @return           Response
      * @Route("/create", name="create")
      */
     public function createAction(Request $request)
@@ -43,6 +66,12 @@ class CrudController extends Controller
     }
 
     /**
+     * Update Action
+     *
+     * @param Request $request la requete
+     * @param mixed   $id      l'id
+     *
+     * @return                Response
      * @Route("/update/{id}", name="update")
      */
     public function updateAction(Request $request, $id)
@@ -72,6 +101,11 @@ class CrudController extends Controller
     }
 
     /**
+     * Delete Action
+     *
+     * @param mixed $id l'id
+     *
+     * @return                Response
      * @Route("/delete/{id}", name="delete")
      */
     public function deleteAction($id)
@@ -89,6 +123,9 @@ class CrudController extends Controller
     }
 
     /**
+     * Read Acion
+     *
+     * @return         Response
      * @Route("/read", name="read")
      */
     public function readAction()
@@ -102,6 +139,13 @@ class CrudController extends Controller
         );
     }
 
+    /**
+     * Renvoie un livre par son id
+     *
+     * @param mixed $id l'id
+     *
+     * @return null|object
+     */
     public function getLivreById($id)
     {
         // En guise de test on passe à cette fonction l'id d'un bouquin qu'on a déjà et si la fonction renvoi rien, c'est qu'elle est bugguée
@@ -109,6 +153,14 @@ class CrudController extends Controller
          $livre = $em->getRepository(book::class)->find($id);
         return $livre;
     }
+
+    /**
+     * Renvoie un livre par son titre
+     *
+     * @param string $titre le titre
+     *
+     * @return mixed
+     */
     public function getLivreByTitre($titre)
     {
         // En guise de test on passe à cette fonction le titre d'un bouquin qu'on a déjà et si la fonction renvoi rien, c'est qu'elle est bugguée
