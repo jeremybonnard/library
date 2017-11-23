@@ -30,3 +30,6 @@ install:
 script:
     # run test suite directories in parallel using GNU parallel
     - ls -d tests/Composer/Test/* | parallel --gnu --keep-order 'echo "Running {} tests"; ./vendor/bin/phpunit -c tests/complete.phpunit.xml --colors=always {} || (echo -e "\e[41mFAILED\e[0m {}" && exit 1);'
+
+    - ./vendor/bin/phpcs /var/www/html/library && echo 'phpcs fait!';
+
