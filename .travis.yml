@@ -41,4 +41,4 @@ script:
 
     - ./vendor/bin/phpdox;
 
-    - ./update.sh
+    #    - ./update.sh
