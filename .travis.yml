@@ -7,11 +7,6 @@ dist: trusty
 git:
   depth: 5
 
-addons:
-  apt:
-    packages:
-      - parallel
-
 php:
   - 5.6
 
@@ -35,4 +30,4 @@ script:
     # - ./vendor/bin/phpcs --severity=0 ./app/;
     - ./vendor/bin/phpcs -n ./src/;
 
-    - update.sh
+    - ./update.sh
