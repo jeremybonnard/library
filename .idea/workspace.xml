@@ -4,12 +4,6 @@
     <list default="true" id="408da565-a5d5-40d1-9589-0ee894537b94" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" afterPath="$PROJECT_DIR$/src/AppBundle/AppBundle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/CrudController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/CrudController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Book.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Book.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Repository/BookRepository.php" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/BookRepository.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
-              <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -58,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <marker date="1511436334418" expanded="true" signature="9:72" ph=" MyClass Class Doc Comment ..." />
                 <marker date="1511436334418" expanded="true" signature="401:408" ph=" MyClass Class Doc Comment ..." />
@@ -72,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/BookRepository.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+              <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
               <folding>
                 <element signature="e#6#172#0#PHP" expanded="true" />
                 <marker date="1511442568685" expanded="true" signature="615:668" ph="SELECT p FRO... AppBundle" />
@@ -159,7 +153,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1056" />
@@ -312,18 +306,18 @@
       <option name="presentableId" value="Default" />
       <updated>1511340861582</updated>
       <workItem from="1511340863658" duration="13746000" />
-      <workItem from="1511426088983" duration="8014000" />
+      <workItem from="1511426088983" duration="8979000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21760000" />
+    <option name="totallyTimeSpent" value="22725000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1056" extended-state="4" />
+    <frame x="-3" y="0" width="1926" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36477986" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -427,12 +421,12 @@
         <state relative-caret-position="585">
           <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="24" />
           <folding>
-            <marker date="1511435899586" expanded="true" signature="510:1151" ph="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
-            <marker date="1511435899586" expanded="true" signature="1172:1263" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
-            <marker date="1511435899586" expanded="true" signature="1280:2011" ph="{...}" />
-            <marker date="1511435899586" expanded="true" signature="1309:1862" ph="[...]" />
-            <marker date="1511435899586" expanded="true" signature="1892:1934" ph="[...]" />
-            <marker date="1511435899586" expanded="true" signature="2027:2064" ph="{&quot;sort-packages&quot;: true...}" />
+            <marker date="1511444587136" expanded="true" signature="510:1151" ph="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
+            <marker date="1511444587136" expanded="true" signature="1172:1263" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
+            <marker date="1511444587136" expanded="true" signature="1280:2011" ph="{...}" />
+            <marker date="1511444587136" expanded="true" signature="1309:1862" ph="[...]" />
+            <marker date="1511444587136" expanded="true" signature="1892:1934" ph="[...]" />
+            <marker date="1511444587136" expanded="true" signature="2027:2064" ph="{&quot;sort-packages&quot;: true...}" />
           </folding>
         </state>
       </provider>
@@ -516,12 +510,12 @@
         <state relative-caret-position="585">
           <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="24" />
           <folding>
-            <marker date="1511435899586" expanded="true" signature="510:1151" ph="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
-            <marker date="1511435899586" expanded="true" signature="1172:1263" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
-            <marker date="1511435899586" expanded="true" signature="1280:2011" ph="{...}" />
-            <marker date="1511435899586" expanded="true" signature="1309:1862" ph="[...]" />
-            <marker date="1511435899586" expanded="true" signature="1892:1934" ph="[...]" />
-            <marker date="1511435899586" expanded="true" signature="2027:2064" ph="{&quot;sort-packages&quot;: true...}" />
+            <marker date="1511444587136" expanded="true" signature="510:1151" ph="{&quot;php&quot;: &quot;&gt;=5.5.9&quot;...}" />
+            <marker date="1511444587136" expanded="true" signature="1172:1263" ph="{&quot;sensio/generator-bundle&quot;: &quot;^3.0&quot;...}" />
+            <marker date="1511444587136" expanded="true" signature="1280:2011" ph="{...}" />
+            <marker date="1511444587136" expanded="true" signature="1309:1862" ph="[...]" />
+            <marker date="1511444587136" expanded="true" signature="1892:1934" ph="[...]" />
+            <marker date="1511444587136" expanded="true" signature="2027:2064" ph="{&quot;sort-packages&quot;: true...}" />
           </folding>
         </state>
       </provider>
@@ -590,7 +584,7 @@
     <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <marker date="1511436334418" expanded="true" signature="9:72" ph=" MyClass Class Doc Comment ..." />
             <marker date="1511436334418" expanded="true" signature="401:408" ph=" MyClass Class Doc Comment ..." />
@@ -602,7 +596,7 @@
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/BookRepository.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
           <folding>
             <element signature="e#6#172#0#PHP" expanded="true" />
             <marker date="1511442568685" expanded="true" signature="615:668" ph="SELECT p FRO... AppBundle" />
@@ -656,7 +650,7 @@
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
-          <caret line="35" column="28" lean-forward="false" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
           <folding />
         </state>
       </provider>
